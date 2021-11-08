@@ -1,23 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+
+import UsuarioFuncional from './components/usuarios-comp-funcional';
+import UsuarioClase from './components/usuario-comp-clase';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <h1> Introducción a REACT</h1>
+      <br/>
+      <h3>Componente funcional</h3>
+      <UsuarioFuncional/> 
+      <h3>Componente clase</h3> 
+      <UsuarioClase/>
     </div>
   );
 }
